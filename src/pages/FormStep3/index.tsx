@@ -56,7 +56,11 @@ export const FormStep3 = () => {
 
               <label>
                   Seu E-mail?
-                  <input type="email" value={state.email} onChange={handleEmailChange}/>
+                  <input 
+                        type="email" 
+                        value={state.email}
+                        onChange={handleEmailChange}
+                   />
               </label>
 
 
